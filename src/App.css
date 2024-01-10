@@ -1,0 +1,34 @@
+.video-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.uploadField {
+  font-size: 20px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  left: 30%;
+  height: 40px;
+}
+.video {
+  margin-top: 40px;
+}
+
+.canvas-id{
+  width: 100%;
+  height: 100%;
+ 
+}
+canvas {
+  border: 2px solid black
+}
+.upload-button{
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: cadetblue;
+  cursor: pointer;
+}
